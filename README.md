@@ -1,61 +1,40 @@
 # Online Project Management (Java Servlet + JDBC)
 
-Online Project Management Tool
-Simple Java web app for managing projects, tasks, and team members using Servlets, JSP, and JDBC with MySQL as the backend.
+# Online Project Management Tool
 
-Tech stack
-Java (Servlets, JSP)
+A simple Java web application for managing projects, tasks, and team members. Built with Servlets, JSP, and JDBC, backed by MySQL.
 
-JDBC for database access
+---
 
-MySQL (database: project_management_db)
+## 📋 Overview
 
-Maven for build (pom.xml)
+This is a project management system that allows users to create and manage projects, organize tasks, and collaborate with team members. The application supports role-based access (Admin, Project Manager, and Team Member) with a clean, easy-to-use interface.
 
-Apache Tomcat for deployment (WAR)
+---
 
-Features
-Basic project and user management (admin, project manager, member roles).
+## 🛠️ Tech Stack
 
-Login with demo users for quick testing.
+| Component | Technology |
+|-----------|-----------|
+| **Backend** | Java (Servlets, JSP) |
+| **Database Access** | JDBC |
+| **Database** | MySQL (`project_management_db`) |
+| **Build Tool** | Maven |
+| **Server** | Apache Tomcat |
+| **Deployment** | WAR (Web Archive) |
 
-Simple UI using JSP pages served by servlets.
+---
 
-Project structure
-src/main/java/com/projectmanagement – servlets, DAO classes, and utilities.
+## ✨ Features
 
-resources – config and supporting resources.
+- ✅ User authentication with role-based access control
+- ✅ Project creation and management
+- ✅ Task assignment and tracking
+- ✅ Team member management
+- ✅ Three user roles: Admin, Project Manager, Team Member
+- ✅ Demo users for testing
+- ✅ Simple, responsive JSP-based UI
 
-sql – database schema and initial data (schema.sql).
+---
 
-target/online-project-management.war – generated WAR file after build.
-
-How to run locally
-Create the database by running sql/schema.sql in your MySQL server (database name: project_management_db).
-
-Open src/main/java/com/projectmanagement/dao/DBUtil.java and update your MySQL URL, username, and password.
-
-Build the project with Maven:
-
-bash
-mvn clean package
-Take target/online-project-management.war and deploy it on Apache Tomcat.
-
-Start Tomcat and open the app in your browser (for example: http://localhost:8080/online-project-management).
-
-Demo login users
-Admin: vishal@example.com / password
-
-Project Manager: chetan@example.com / password
-
-Team Member: kushal@example.com / password
-
-Future improvements
-Validation and better error handling on forms.
-
-Role-based access control for each module.
-
-UI improvements (CSS framework like Bootstrap).
-
-More detailed project and task tracking (status, deadlines, comments).
 
