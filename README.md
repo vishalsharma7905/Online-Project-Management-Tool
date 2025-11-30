@@ -36,5 +36,75 @@ This is a project management system that allows users to create and manage proje
 - ✅ Simple, responsive JSP-based UI
 
 ---
+## 📁 Project Structure
+
+Online-Project-Management-Tool/
+├── src/main/java/com/projectmanagement/
+│ ├── servlet/ # Request handlers
+│ ├── dao/ # Database access layer
+│ ├── model/ # Entity classes
+│ └── util/ # Utility classes
+├── src/main/webapp/
+│ └── jsp/ # JSP templates
+├── sql/
+│ └── schema.sql # Database schema
+├── pom.xml # Maven configuration
+└── target/
+└── online-project-management.war
 
 
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Java 8 or higher
+- MySQL Server
+- Apache Tomcat 9+
+- Maven 3.6+
+
+### Installation Steps
+
+#### 1. **Setup the Database**
+
+#### 2. **Update Database Configuration**
+- Navigate to: `src/main/java/com/projectmanagement/dao/DBUtil.java`
+- Update the following credentials:
+
+#### 3. **Build the Project**
+
+#### 4. **Deploy on Tomcat**
+- Copy `target/online-project-management.war` to `TOMCAT_HOME/webapps/`
+- Start Tomcat
+
+#### 5. **Access the Application**
+
+
+---
+
+## 👤 Demo Login Credentials
+
+| Role | Email | Password |
+|------|-------|----------|
+| **Admin** | `vishal@example.com` | `password` |
+| **Project Manager** | `chetan@example.com` | `password` |
+| **Team Member** | `kushal@example.com` | `password` |
+
+---
+
+## 📖 Usage Guide
+
+1. **Login** with demo credentials
+2. **Create Projects** (Admin/PM only)
+3. **Add Tasks** to projects
+4. **Assign Team Members** to tasks
+5. **Track Progress** from the dashboard
+
+---
+
+## 🔧 Configuration
+
+### Database Connection (DBUtil.java)
+
+
+By TEAM ----- Revenant Coders.
