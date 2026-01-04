@@ -94,7 +94,7 @@ Online-Project-Management-Tool/
 
 ## 📖 Usage Guide
 
-1. **Login** with demo credentials
+1. **Login** with demo credential
 2. **Create Projects** (Admin/PM only)
 3. **Add Tasks** to projects
 4. **Assign Team Members** to tasks
@@ -107,4 +107,4 @@ Online-Project-Management-Tool/
 ### Database Connection (DBUtil.java)
 
 
-By TEAM ----- Revenant Coders.
+By TEAM ---- Revenant Coders.
